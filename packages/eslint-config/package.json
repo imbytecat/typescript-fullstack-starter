@@ -9,7 +9,9 @@
     "./react-internal": "./react-internal.js"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
     "@eslint/js": "catalog:",
+    "@furtherverse/typescript-config": "workspace:*",
     "@next/eslint-plugin-next": "catalog:",
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",

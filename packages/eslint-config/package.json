@@ -1,12 +1,10 @@
 {
   "name": "@furtherverse/eslint-config",
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
   "private": true,
   "exports": {
-    "./base": "./base.js",
-    "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./base": "./base.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
@@ -15,7 +13,7 @@
     "@next/eslint-plugin-next": "catalog:",
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",
-    "eslint-plugin-format": "^1.0.1",
+    "eslint-plugin-format": "catalog:",
     "eslint-plugin-only-warn": "catalog:",
     "eslint-plugin-react": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",

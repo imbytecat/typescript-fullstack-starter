@@ -1,3 +1,3 @@
-import base from "./base";
+import config from './base'
 
-export default base;
+export default config

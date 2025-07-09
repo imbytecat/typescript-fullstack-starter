@@ -25,9 +25,9 @@
       "@antfu/eslint-config": "^4.14.1",
       "@types/bun": "^1.2.16",
       "antd": "^5.26.0",
-      "drizzle-kit": "^0.30.6",
-      "drizzle-orm": "^0.40.1",
-      "drizzle-zod": "^0.7.1",
+      "drizzle-kit": "^0.31.4",
+      "drizzle-orm": "^0.44.2",
+      "drizzle-zod": "^0.8.2",
       "eslint": "^9.29.0",
       "eslint-plugin-format": "^1.0.1",
       "eslint-plugin-react-hooks": "^5.2.0",
@@ -38,7 +38,8 @@
       "react-dom": "^19.1.0",
       "typescript": "^5.8.2",
       "turbo": "^2.5.4",
-      "wrangler": "^4.4.0"
+      "wrangler": "^4.4.0",
+      "zod": "^3.25.64"
     }
   }
 }

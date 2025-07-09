@@ -12,15 +12,9 @@
     "@imbytecat/typescript-config": "workspace:*",
     "@next/eslint-plugin-next": "catalog:",
     "eslint": "catalog:",
-    "eslint-config-prettier": "catalog:",
     "eslint-plugin-format": "catalog:",
-    "eslint-plugin-only-warn": "catalog:",
-    "eslint-plugin-react": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",
-    "eslint-plugin-turbo": "catalog:",
-    "globals": "catalog:",
-    "jiti": "catalog:",
-    "typescript": "catalog:",
-    "typescript-eslint": "catalog:"
+    "eslint-plugin-react-refresh": "catalog:",
+    "jiti": "catalog:"
   }
 }

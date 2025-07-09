@@ -1,7 +1,3 @@
 {
-  "extends": "@imbytecat/typescript-config/base.json",
-  "compilerOptions": {
-    "module": "preserve",
-    "target": "esnext"
-  }
+  "extends": "@imbytecat/typescript-config/base.json"
 }

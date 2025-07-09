@@ -10,8 +10,7 @@
   "devDependencies": {
     "prettier": "catalog:",
     "turbo": "catalog:",
-    "typescript": "catalog:",
-    "wrangler": "catalog:"
+    "typescript": "catalog:"
   },
   "engines": {
     "bun": ">=1.2.14"

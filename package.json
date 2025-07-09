@@ -22,6 +22,7 @@
     ],
     "catalog": {
       "@antfu/eslint-config": "^4.14.1",
+      "antd": "^5.26.0",
       "drizzle-kit": "^0.30.6",
       "drizzle-orm": "^0.40.1",
       "drizzle-zod": "^0.7.1",
@@ -31,6 +32,8 @@
       "eslint-plugin-react-refresh": "^0.4.20",
       "hono": "^4.8.4",
       "jiti": "^2.4.2",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
       "typescript": "^5.8.2",
       "turbo": "^2.5.4",
       "wrangler": "^4.4.0"

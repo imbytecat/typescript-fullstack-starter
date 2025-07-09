@@ -8,9 +8,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
-    "@eslint/js": "catalog:",
     "@imbytecat/typescript-config": "workspace:*",
-    "@next/eslint-plugin-next": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
     "eslint-plugin-react-hooks": "catalog:",

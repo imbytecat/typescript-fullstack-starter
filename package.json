@@ -1,5 +1,5 @@
 {
-  "name": "@furtherverse/monorepo",
+  "name": "@imbytecat/monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build",

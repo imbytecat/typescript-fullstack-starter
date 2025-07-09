@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "@furtherverse/monorepo",
+      "name": "@imbytecat/monorepo",
       "devDependencies": {
         "prettier": "catalog:",
         "turbo": "catalog:",
@@ -13,8 +13,9 @@
       "name": "api",
       "version": "1.0.0",
       "dependencies": {
-        "@furtherverse/eslint-config": "workspace:*",
-        "@furtherverse/typescript-config": "workspace:*",
+        "@imbytecat/eslint-config": "workspace:*",
+        "@imbytecat/typescript-config": "workspace:*",
+        "hono": "catalog:",
       },
       "devDependencies": {
         "wrangler": "catalog:",
@@ -24,17 +25,17 @@
       "name": "web",
       "version": "1.0.0",
       "dependencies": {
-        "@furtherverse/eslint-config": "workspace:*",
-        "@furtherverse/typescript-config": "workspace:*",
+        "@imbytecat/eslint-config": "workspace:*",
+        "@imbytecat/typescript-config": "workspace:*",
       },
     },
     "packages/eslint-config": {
-      "name": "@furtherverse/eslint-config",
+      "name": "@imbytecat/eslint-config",
       "version": "0.0.0",
       "devDependencies": {
         "@antfu/eslint-config": "catalog:",
         "@eslint/js": "catalog:",
-        "@furtherverse/typescript-config": "workspace:*",
+        "@imbytecat/typescript-config": "workspace:*",
         "@next/eslint-plugin-next": "catalog:",
         "eslint": "catalog:",
         "eslint-config-prettier": "catalog:",
@@ -50,7 +51,7 @@
       },
     },
     "packages/typescript-config": {
-      "name": "@furtherverse/typescript-config",
+      "name": "@imbytecat/typescript-config",
       "version": "0.0.0",
     },
   },
@@ -196,10 +197,6 @@
 
     "@fastify/busboy": ["@fastify/busboy@2.1.1", "", {}, "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="],
 
-    "@furtherverse/eslint-config": ["@furtherverse/eslint-config@workspace:packages/eslint-config"],
-
-    "@furtherverse/typescript-config": ["@furtherverse/typescript-config@workspace:packages/typescript-config"],
-
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
     "@humanfs/node": ["@humanfs/node@0.16.6", "", { "dependencies": { "@humanfs/core": "^0.19.1", "@humanwhocodes/retry": "^0.3.0" } }, "sha512-YuI2ZHQL78Q5HbhDiBA1X4LmYdXCKCMQIfw0pw7piHJwyREFebJUvrQN4cMssyES6x+vfUbx1CIpaQUKYdQZOw=="],
@@ -207,6 +204,10 @@
     "@humanwhocodes/module-importer": ["@humanwhocodes/module-importer@1.0.1", "", {}, "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA=="],
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.3", "", {}, "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ=="],
+
+    "@imbytecat/eslint-config": ["@imbytecat/eslint-config@workspace:packages/eslint-config"],
+
+    "@imbytecat/typescript-config": ["@imbytecat/typescript-config@workspace:packages/typescript-config"],
 
     "@img/sharp-darwin-arm64": ["@img/sharp-darwin-arm64@0.33.5", "", { "optionalDependencies": { "@img/sharp-libvips-darwin-arm64": "1.0.4" }, "os": "darwin", "cpu": "arm64" }, "sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ=="],
 
@@ -625,6 +626,8 @@
     "has-tostringtag": ["has-tostringtag@1.0.2", "", { "dependencies": { "has-symbols": "^1.0.3" } }, "sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw=="],
 
     "hasown": ["hasown@2.0.2", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="],
+
+    "hono": ["hono@4.8.4", "", {}, "sha512-KOIBp1+iUs0HrKztM4EHiB2UtzZDTBihDtOF5K6+WaJjCPeaW4Q92R8j63jOhvJI5+tZSMuKD9REVEXXY9illg=="],
 
     "ignore": ["ignore@5.3.2", "", {}, "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="],
 

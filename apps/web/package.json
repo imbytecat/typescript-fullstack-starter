@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@furtherverse/eslint-config": "workspace:*",
-    "@furtherverse/typescript-config": "workspace:*"
+    "@imbytecat/eslint-config": "workspace:*",
+    "@imbytecat/typescript-config": "workspace:*"
   }
 }

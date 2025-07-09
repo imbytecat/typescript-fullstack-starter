@@ -1,5 +1,5 @@
 {
-  "name": "@furtherverse/eslint-config",
+  "name": "@imbytecat/eslint-config",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -9,7 +9,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
     "@eslint/js": "catalog:",
-    "@furtherverse/typescript-config": "workspace:*",
+    "@imbytecat/typescript-config": "workspace:*",
     "@next/eslint-plugin-next": "catalog:",
     "eslint": "catalog:",
     "eslint-config-prettier": "catalog:",

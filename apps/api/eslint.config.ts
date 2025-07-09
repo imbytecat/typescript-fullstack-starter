@@ -1,3 +1,3 @@
-import base from '@imbytecat/eslint-config/base'
+import { baseConfig } from '@imbytecat/eslint-config/base'
 
-export default base
+export default baseConfig

@@ -1,6 +1,6 @@
 import antfu from '@antfu/eslint-config'
 
-export default antfu({
+export const baseConfig = antfu({
   lessOpinionated: true,
   stylistic: true,
   typescript: true,

@@ -11,7 +11,8 @@
   "devDependencies": {
     "prettier": "catalog:",
     "turbo": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "wrangler": "catalog:"
   },
   "engines": {
     "bun": ">=1.2.14"
@@ -38,7 +39,8 @@
       "prettier": "^3.5.3",
       "typescript": "^5.8.2",
       "typescript-eslint": "^8.33.0",
-      "turbo": "^2.5.4"
+      "turbo": "^2.5.4",
+      "wrangler": "^4.4.0"
     }
   }
 }

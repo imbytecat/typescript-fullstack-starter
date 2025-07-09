@@ -11,6 +11,9 @@
   "dependencies": {
     "@imbytecat/eslint-config": "workspace:*",
     "@imbytecat/typescript-config": "workspace:*",
+    "drizzle-kit": "catalog:",
+    "drizzle-orm": "catalog:",
+    "drizzle-zod": "catalog:",
     "hono": "catalog:"
   },
   "devDependencies": {

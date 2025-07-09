@@ -1,3 +1,5 @@
-import config from './base'
+import { baseConfig } from './base'
 
-export default config
+export default baseConfig.overrideRules({
+  'antfu/no-top-level-await': 'off',
+})

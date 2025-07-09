@@ -1,4 +1,4 @@
-import { combine  } from '@antfu/eslint-config'
+import { combine } from '@antfu/eslint-config'
 
 import { baseConfig } from './base'
 

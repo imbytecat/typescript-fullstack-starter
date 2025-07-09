@@ -1,0 +1,3 @@
+{
+  "extends": "@imbytecat/typescript-config/react.json"
+}

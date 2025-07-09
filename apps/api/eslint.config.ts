@@ -1,3 +1,3 @@
-import { baseConfig } from '@imbytecat/eslint-config/base'
+import { honoConfig } from '@imbytecat/eslint-config/hono'
 
-export default baseConfig
+export default honoConfig

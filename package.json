@@ -23,6 +23,7 @@
     ],
     "catalog": {
       "@antfu/eslint-config": "^4.17.0",
+      "@hono/zod-validator": "^0.7.1",
       "@types/bun": "^1.2.16",
       "antd": "^5.26.0",
       "drizzle-kit": "^0.31.4",
@@ -41,8 +42,5 @@
       "wrangler": "^4.25.0",
       "zod": "^4.0.5"
     }
-  },
-  "dependencies": {
-    "@hono/zod-validator": "^0.7.1"
   }
 }

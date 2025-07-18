@@ -16,6 +16,7 @@
     "drizzle-orm": "catalog:",
     "drizzle-zod": "catalog:",
     "hono": "catalog:",
+    "http-status-codes": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {

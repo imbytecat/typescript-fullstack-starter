@@ -9,7 +9,9 @@ export const devRouter = createRouter()
   .get(
     '/hello',
     (c) => {
-      return c.text('Hello Hono!')
+      return c.json({
+        message: 'Hello Hono!',
+      })
     },
   )
 

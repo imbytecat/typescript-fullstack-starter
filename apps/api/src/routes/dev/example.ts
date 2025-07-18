@@ -24,6 +24,7 @@ export const exampleRouter = createRouter()
       const { name } = c.req.valid('json')
       return c.json({
         message: `Hello ${name}!`,
+        name,
       })
     },
   )

@@ -4,12 +4,15 @@ import { z } from 'zod'
 import { createRouter } from '@/lib/create-app'
 
 export const devRouter = createRouter()
+  .basePath('/dev')
+
   .get(
     '/',
     (c) => {
       return c.text('Hello Hono!')
     },
   )
+
   .post(
     '/',
     zValidator('json', z.object({

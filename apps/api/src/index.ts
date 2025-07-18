@@ -1,27 +1,7 @@
-import { zValidator } from '@hono/zod-validator'
-import { Hono } from 'hono'
-import z from 'zod'
+import { createApp } from './lib/create-app'
+import { apiRouter } from './routes'
 
-const app = new Hono()
-
-  .get(
-    '/',
-    (c) => {
-      return c.text('Hello Hono!')
-    },
-  )
-
-  .post(
-    '/',
-    zValidator('json', z.object({
-      name: z.string(),
-    })),
-    (c) => {
-      const { name } = c.req.valid('json')
-      return c.json({
-        message: `Hello ${name}!`,
-      })
-    },
-  )
+const app = createApp()
+  .route('/', apiRouter)
 
 export default app

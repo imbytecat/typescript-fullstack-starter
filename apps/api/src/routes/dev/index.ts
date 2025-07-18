@@ -7,14 +7,14 @@ export const devRouter = createRouter()
   .basePath('/dev')
 
   .get(
-    '/',
+    '/hello',
     (c) => {
       return c.text('Hello Hono!')
     },
   )
 
   .post(
-    '/',
+    '/greeting',
     zValidator('json', z.object({
       name: z.string(),
     })),

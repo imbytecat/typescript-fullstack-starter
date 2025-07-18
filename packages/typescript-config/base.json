@@ -10,6 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "incremental": false,
     "isolatedModules": true,
+    "jsx": "react-jsx",
     "lib": [
       "ESNext"
     ],
@@ -21,6 +22,7 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": false,
     "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "resolveJsonModule": true,

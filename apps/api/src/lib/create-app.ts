@@ -1,6 +1,11 @@
+import type { Schema } from 'hono'
+
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { requestId } from 'hono/request-id'
+
+import { notFound } from '@/middlewares/not-found'
+import { onError } from '@/middlewares/on-error'
 
 import type { App, AppBindings } from './types'
 
@@ -15,7 +20,7 @@ export const createApp = () => {
   app.use(cors())
 
   app.notFound(notFound)
-  app.onError(errorHandler)
+  app.onError(onError)
 
   return app
 }

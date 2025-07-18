@@ -1,0 +1,4 @@
+[install]
+# turn on pnpm-style isolated, symlinked dependencies
+# available since 1.2.19, default from v1.3
+#linker = "isolated"

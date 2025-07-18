@@ -41,5 +41,8 @@
       "wrangler": "^4.25.0",
       "zod": "^4.0.5"
     }
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.1"
   }
 }
